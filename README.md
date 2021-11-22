@@ -8,7 +8,7 @@ MinMax (sometimes Minimax) is a decision rule used in artificial intelligence, d
 
 The performance of the naïve minimax algorithm may be improved dramatically, without affecting the result, by the use of alpha–beta pruning.
 
-Here is presented a version using a depth limited minmax algorithm with alpha–beta pruning and Monte Carlo simulation as heuristic
+Here is presented a version using a depth limited minmax algorithm with alpha–beta pruning and Monte Carlo simulation as heuristic.
 ### Monte Carlo Tree Search
 Monte Carlo tree search (MCTS) is a heuristic search algorithm for some kinds of decision processes, most notably those employed in software that plays board games. In that context MCTS is used to solve the game tree. 
 The focus of MCTS is on the analysis of the most promising moves, expanding the search tree based on random sampling of the search space. The application of Monte Carlo tree search in games is based on many playouts, also called roll-outs. In each playout, the game is played out to the very end by selecting moves at random. The final game result of each playout is then used to weight the nodes in the game tree so that better nodes are more likely to be chosen in future playouts.
